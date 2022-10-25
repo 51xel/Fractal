@@ -1,0 +1,52 @@
+﻿  Bitmap.cpp
+D:\Desktop\C\Fractal(Inter)\Project2\BitmapFileHeader.h(18,9): warning C4161: #pragma pack(pop...): число извлечений из стека превышает число занесений
+D:\Desktop\C\Fractal(Inter)\Project2\Bitmap.cpp(2,1): warning C4103: выравнивание изменилось после включения заголовка, возможно из-за отсутствия директивы #pragma pack(pop)
+D:\Desktop\C\Fractal(Inter)\Project2\BitmapInfoHeader.h(25,9): warning C4161: #pragma pack(pop...): число извлечений из стека превышает число занесений
+  main.cpp
+  Mandelbrot.cpp
+  MyFractal.cpp
+D:\Desktop\C\Fractal(Inter)\Project2\MyFractal.cpp(61,17): warning C4244: =: преобразование "double" в "uint8_t", возможна потеря данных
+  Window.cpp
+D:\Desktop\C\Fractal(Inter)\Project2\Window.cpp(27,38): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\Desktop\C\Fractal(Inter)\Project2\Window.cpp(28,38): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\Desktop\C\Fractal(Inter)\Project2\Window.cpp(34,67): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+D:\Desktop\C\Fractal(Inter)\Project2\Window.cpp(34,40): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+D:\Desktop\C\Fractal(Inter)\Project2\Window.cpp(96,48): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\Desktop\C\Fractal(Inter)\Project2\Window.cpp(104,48): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  Zoom.cpp
+  ZoomList.cpp
+main.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::Texture::~Texture(void)" (__imp_??1Texture@sf@@QEAA@XZ).
+main.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::Font::~Font(void)" (__imp_??1Font@sf@@QEAA@XZ).
+main.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: virtual __cdecl sf::RenderWindow::~RenderWindow(void)" (__imp_??1RenderWindow@sf@@UEAA@XZ).
+main.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: virtual __cdecl sf::Sprite::~Sprite(void)" (__imp_??1Sprite@sf@@UEAA@XZ).
+main.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: virtual __cdecl sf::Text::~Text(void)" (__imp_??1Text@sf@@UEAA@XZ).
+Mandelbrot.obj : error LNK2001: неразрешенный внешний символ "public: static int mybitmap::Mandelbrot::MAX_ITERATIONS" (?MAX_ITERATIONS@Mandelbrot@mybitmap@@2HA).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QEAAXMM@Z).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: bool __cdecl sf::Texture::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class sf::Rect<int> const &)" (__imp_?loadFromFile@Texture@sf@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$Rect@H@2@@Z).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::Texture::Texture(void)" (__imp_??0Texture@sf@@QEAA@XZ).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: bool __cdecl sf::Font::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?loadFromFile@Font@sf@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::Font::Font(void)" (__imp_??0Font@sf@@QEAA@XZ).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (__imp_??0RenderWindow@sf@@QEAA@VVideoMode@1@AEBVString@1@IAEBUContextSettings@1@@Z).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::Color::Color(unsigned char,unsigned char,unsigned char,unsigned char)" (__imp_??0Color@sf@@QEAA@EEEE@Z).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: static class sf::Color const sf::Color::Black" (__imp_?Black@Color@sf@@2V12@B).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Window::display(void)" (__imp_?display@Window@sf@@QEAAXXZ).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: bool __cdecl sf::Window::pollEvent(class sf::Event &)" (__imp_?pollEvent@Window@sf@@QEAA_NAEAVEvent@2@@Z).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: bool __cdecl sf::Window::isOpen(void)const " (__imp_?isOpen@Window@sf@@QEBA_NXZ).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Window::close(void)" (__imp_?close@Window@sf@@QEAAXXZ).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::RenderTarget::clear(class sf::Color const &)" (__imp_?clear@RenderTarget@sf@@QEAAXAEBVColor@2@@Z).
+    Указание на символы, которые определены и могут подойти:
+      "__declspec(dllimport) public: void __cdecl std::basic_ios<char,struct std::char_traits<char> >::clear(int,bool)" (__imp_?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z)
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::String::String(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::locale const &)" (__imp_??0String@sf@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVlocale@3@@Z).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QEAA@III@Z).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Sprite::setTexture(class sf::Texture const &,bool)" (__imp_?setTexture@Sprite@sf@@QEAAXAEBVTexture@2@_N@Z).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::Sprite::Sprite(void)" (__imp_??0Sprite@sf@@QEAA@XZ).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Text::setFillColor(class sf::Color const &)" (__imp_?setFillColor@Text@sf@@QEAAXAEBVColor@2@@Z).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Text::setCharacterSize(unsigned int)" (__imp_?setCharacterSize@Text@sf@@QEAAXI@Z).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Text::setFont(class sf::Font const &)" (__imp_?setFont@Text@sf@@QEAAXAEBVFont@2@@Z).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Text::setString(class sf::String const &)" (__imp_?setString@Text@sf@@QEAAXAEBVString@2@@Z).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::Text::Text(void)" (__imp_??0Text@sf@@QEAA@XZ).
+Window.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::String::~String(void)" (__imp_??1String@sf@@QEAA@XZ).
+D:\Desktop\C\Fractal(Inter)\x64\Release\Project2.exe : fatal error LNK1120: неразрешенных внешних элементов: 32
